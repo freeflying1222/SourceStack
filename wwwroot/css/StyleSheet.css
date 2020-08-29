@@ -1,0 +1,12 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    /*border:1px solid;*/
+}
+
+@media(max-width: 800px){
+    .red {
+        color: red;
+    }
+}
+

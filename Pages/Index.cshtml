@@ -4,6 +4,24 @@
     ViewData["Title"] = "Home page";
 }
 
+<form method="post" action="/" enctype="multipart/form-data">
+
+
+    <input asp-for="icon" type="file" />
+    <br />
+
+    <label>用户名：</label>
+    <input size="4" type="text" name="username" readonly value="大飞哥" />
+    <br />
+
+
+
+    <input type="submit" value="提交" />
+    <input type="reset" value="重置" />
+</form>
+
+
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
