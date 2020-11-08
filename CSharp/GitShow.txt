@@ -7,3 +7,5 @@ change on release -1
 change on release -2
 
 change on master -1
+
+conflict - on master
