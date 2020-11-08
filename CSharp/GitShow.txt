@@ -8,4 +8,6 @@ change on release -2
 
 change on master -1
 
+conflict - on release
+
 conflict - on master
